@@ -1,8 +1,8 @@
 input.onButtonPressed(Button.A, function () {
     for (let index = 0; index < 4; index++) {
-        radio.sendValue("N", 33 * 5)
+        radio.sendValue("N", 34 * 5)
         basic.pause(2000)
-        radio.sendValue("R", 78)
+        radio.sendValue("R", 82)
         basic.pause(2000)
     }
 })
